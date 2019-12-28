@@ -13,3 +13,7 @@ resource "aws_network_interface_sg_attachment" "allow-ssh_attachment" {
   security_group_id    = "${aws_security_group.allow-ssh.id}"
   network_interface_id = "${aws_instance.es.primary_network_interface_id}"
 }
+
+output "ip" {
+  value = aws_instance.es.public_ip
+}
