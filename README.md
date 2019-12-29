@@ -6,5 +6,5 @@ To Install
 
 Requirement 
 
-* AWS instance with IAM role permision to lunach ec2 instance.
+* AWS instance with IAM role permision to launch ec2 instance.
 * Terrafrom binary at ```/usr/local/bin``` and aws cli should be configured.
